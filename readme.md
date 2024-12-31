@@ -1,7 +1,7 @@
 # Note Manager Plugin API
 Note Manager Plugin API is distributed by a standalone file that will provide <b>only interfaces</b> for plugin developers that will provide the implementations.
 You can use `PluginApi.d.ts` file to develop your plugins. This file contains the interfaces anything related to note manager app like menu items, toolbar items, editor actions etc...
-Since all the plugin files will be type-checked at runtime, all plugins should have a `main.ts` file that exports a single implementation of `EditorPlugin` with name of `Main`.
+Since all the plugin files will be type-checked at runtime, all plugins should have a `main.ts` file that exports a single implementation of `EditorPlugin`.
 
 ## Features
 For editor operations, plugin api will provide you an interface `EditorWrapper` that has methods like:
