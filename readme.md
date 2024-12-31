@@ -18,7 +18,7 @@ Example plugin implementation is below:
 ```ts
 import {EditorPlugin, EditorWrapper} from "./PluginApi";
 
-class YourPlugin implements EditorPlugin {
+export class YourPlugin implements EditorPlugin {
     editor?: EditorWrapper
     name: string = "Display Name Of Your Plugin";
     contextMenuItems: Array<EditorMenuItem> = []
